@@ -88,6 +88,8 @@ grails.hibernate.osiv.readonly = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+		grails.converters.default.pretty.print = true
+		grails.converters.json.default.deep = true
     }
     production {
         grails.logging.jul.usebridge = false
